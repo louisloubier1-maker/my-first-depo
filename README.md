@@ -1,4 +1,4 @@
-# Shoez Store - HTML/CSS Project
+# Shoez Store Project
 
 Ce projet a été réalisé à partir d’un prototype Figma.  
 L’objectif était de reproduire une maquette figma simple en HTML et CSS.
@@ -28,15 +28,6 @@ Voici quelques exemples de choses que j’ai pu demander :
 - comment faire en sorte que certaines parties aient la même police et la même taille,
 - Peux-tu me corriger mon code car j'ai une erreur lors de l'execution.
 - Aide moi à Aligner les deux headers car je n'y arrive pas, voici mon code : ... . 
-
-## Ce que j’ai fait moi-même
-
-J’ai réalisé moi-même :
-- la structure générale de la page,
-- l’intégration du HTML,
-- la mise en forme CSS,
-- les ajustements visuels pour coller au Figma,
-
 
 ## Organisation des fichiers
 
