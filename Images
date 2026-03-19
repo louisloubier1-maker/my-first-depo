@@ -1,0 +1,12 @@
+my-first-depo/
+├─ index.html
+├─ style.css
+├─ README.md
+└─ assets/
+   ├─ hero-left.png
+   ├─ hero-right.png
+   ├─ prod1.png
+   ├─ prod2.png
+   ├─ prod3.png
+   ├─ prod4.png
+   └─ insta.png

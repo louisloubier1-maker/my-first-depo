@@ -1,19 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shoez Store - Prototype</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="logo">Shoez Store</div>
 
-    <h1>Hello world!</h1>
-    <h2>title 2</h2>
-    <h3>title 3</h3>
-    <h4 class="red">title 4</h4>
-    <p>a paragraphe a paragraphe</p>
-    <img src="https://tse2.mm.bing.net/th/id/OIP._M6oNv0TikNfQtW9gwAtjQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" 
-    alt="image of a cute dog">
+      <form class="search" role="search" aria-label="Recherche produits">
+        <button class="search-ico" aria-hidden="true">🔍</button>
+        <input type="search" placeholder="Nike, Adidas, ect." aria-label="Recherche">
+      </form>
 
+      <nav class="header-actions" aria-label="Actions">
+        <button class="btn outline">connexion</button>
+        <button class="btn outline">Registration</button>
+        <button class="btn ghost cart">Cart 🛒</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero hero-fullwidth" aria-hidden="false">
+    <div class="hero-grid">
+      <img src="assets/hero-left.png" alt="hero left" class="hero-img">
+      <img src="assets/hero-right.png" alt="hero right" class="hero-img">
+    </div>
+  </section>
+
+  <main class="wrap main-area" role="main">
+    <aside class="filters" aria-labelledby="filters-title">
+      <h2 id="filters-title">Filters</h2>
+
+      <div class="filter-block">
+        <h3>Sort by</h3>
+        <label class="filter-item"><input type="radio" name="sort"> Price Low to High</label>
+        <label class="filter-item"><input type="radio" name="sort"> Price High to Low</label>
+        <label class="filter-item"><input type="radio" name="sort"> Product name A - Z</label>
+        <label class="filter-item"><input type="radio" name="sort"> Product name Z - A</label>
+      </div>
+
+      <div class="filter-block">
+        <h3>Brands</h3>
+        <details>
+          <summary class="filter-summary">Show brands</summary>
+          <label class="filter-item"><input type="checkbox"> Nike</label>
+          <label class="filter-item"><input type="checkbox"> Adidas</label>
+          <label class="filter-item"><input type="checkbox"> New Balance</label>
+        </details>
+      </div>
+
+      <div class="filter-block">
+        <h3>Price</h3>
+        <details>
+          <summary class="filter-summary">Range</summary>
+          <label class="filter-item"><input type="radio" name="price"> &lt; 50€</label>
+          <label class="filter-item"><input type="radio" name="price"> 50€ - 100€</label>
+          <label class="filter-item"><input type="radio" name="price"> &gt; 100€</label>
+        </details>
+      </div>
+    </aside>
+
+    <section class="products-area" aria-live="polite">
+      <div class="results-header">
+        <div class="results-count">27 result(s)</div>
+        <div class="sort-label">Sort ▾</div>
+      </div>
+
+      <ul class="product-grid">
+        <li class="product-card">
+          <img src="assets/prod1.png" alt="Forum low og">
+          <h4 class="prod-title">Forum low og</h4>
+          <p class="prod-brand">Adidas original · Men</p>
+          <div class="prod-bottom">
+            <div class="price">79.90 €</div>
+            <button class="heart" aria-label="Ajouter aux favoris">♡</button>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img src="assets/prod2.png" alt="Gel quantum">
+          <h4 class="prod-title">Gel quantum 360 utility</h4>
+          <p class="prod-brand">Asics · Men</p>
+          <div class="prod-bottom">
+            <div class="price">44.90 €</div>
+            <button class="heart">♡</button>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img src="assets/prod3.png" alt="327">
+          <h4 class="prod-title">327</h4>
+          <p class="prod-brand">New balance · Men</p>
+          <div class="prod-bottom">
+            <div class="price">64.90 €</div>
+            <button class="heart">♡</button>
+          </div>
+        </li>
+
+        <li class="product-card">
+          <img src="assets/prod4.png" alt="Air vapormax">
+          <h4 class="prod-title">Air vapormax 2021 FK</h4>
+          <p class="prod-brand">Nike · Men</p>
+          <div class="prod-bottom">
+            <div class="price">59.90 €</div>
+            <button class="heart">♡</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-left">
+        <a href="#" class="footer-link">Contact</a>
+        <span class="sep">·</span>
+        <a href="#" class="footer-link">Help</a>
+        <span class="sep">·</span>
+        <a href="#" class="footer-link">Information</a>
+      </div>
+
+      <div class="footer-center single-social">
+        <img src="assets/insta.png" alt="social" class="social-ico">
+      </div>
+
+      <div class="footer-right">
+        <span class="footer-note">Terms</span>
+        <span class="sep">·</span>
+        <span class="footer-note">Privacy</span>
+        <span class="sep">·</span>
+        <span class="footer-note">Your Privacy Choices</span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
