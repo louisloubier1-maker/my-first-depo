@@ -47,4 +47,4 @@ J’ai réalisé moi-même :
 
 ## Remarque
 
-Le site est statique et ne contient pas de JavaScript.  
+Le site est statique et ne contient pas de JavaScript, il s'agit d'une simple vitrine. 
