@@ -35,7 +35,3 @@ Voici quelques exemples de choses que j’ai pu demander :
 - `style.css` : mise en forme
 - `assets/` : images utilisées sur le site
 - `README.md` : fichier expliquant l'utilisation de l'IA. 
-
-## Remarque
-
-Le site est statique et ne contient pas de JavaScript, il s'agit d'une simple vitrine. 
